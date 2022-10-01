@@ -32,23 +32,47 @@ body{
 
  @media (max-width: 480px) {
     body {
-        background-image: url("https://images.unsplash.com/photo-1528459105426-b9548367069b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGxhaW4lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+        background-image: url("https://images.unsplash.com/photo-1498335746477-0c73d7353a07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bW9iaWxlJTIwcGhvbmUlMjB3YWxscGFwZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60");
         background-repeat: no-repeat;
+        background-size: cover;
     }
     .speechtxt{
+        background-color: black;
+   color: white;
+   padding: 6px;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+   padding-left: 8px;
+   font-size: small;
         box-shadow: 2px 2px 4px rgb(170, 167, 167);
     }
     .speak #hi{
+        padding: 4px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding-left: 8px;
+        font-size: small;
         box-shadow: 2px 2px 4px rgb(170, 167, 167);
     }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
     body {
-        background-image: url(images/background-tablet.jpg);
+        background-image: url("https://images.unsplash.com/photo-1585195834027-5b28b11f473d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aSUyMHBhZCUyMHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .speak #hi{
+        box-shadow: 2px 2px 4px rgba(245, 244, 244, 0.562);
+    }
+    .speechtxt{
+        box-shadow: 2px 2px 4px rgba(245, 244, 244, 0.562);
     }
 }
 @media (min-width: 1025px) {
     body {
-	    background-image: url(images/background-desktop.jpg);
+	    background-image: url("https://images.unsplash.com/photo-1624207371246-ed2f11b70e39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+        background-size:100%;
+        background-repeat: no-repeat;
    }
 }
