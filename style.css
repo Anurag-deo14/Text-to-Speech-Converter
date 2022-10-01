@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+   
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+.main{
+    display: flex;
+    margin-top: 42vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.speechtxt{
+   background-color: black;
+   color: white;
+   padding: 10px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   padding-left: 13px;
+   font-size: large;
+   box-shadow: 4px 4px 9px rgb(20, 15, 15);
+}
+.speak #hi{
+    padding: 8px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 13px;
+    font-size: large;
+    box-shadow: 4px 4px 9px rgb(20, 15, 15);
+ }
+
+ @media (max-width: 480px) {
+    body {
+        background-image: url("https://images.unsplash.com/photo-1528459105426-b9548367069b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGxhaW4lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+        background-repeat: no-repeat;
+    }
+    .speechtxt{
+        box-shadow: 2px 2px 4px rgb(170, 167, 167);
+    }
+    .speak #hi{
+        box-shadow: 2px 2px 4px rgb(170, 167, 167);
+    }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background-image: url(images/background-tablet.jpg);
+    }
+}
+@media (min-width: 1025px) {
+    body {
+	    background-image: url(images/background-desktop.jpg);
+   }
+}
